@@ -9,8 +9,7 @@
 6. [Balık AI](#balık-ai)
 7. [Kullanıcı Arayüzü](#kullanıcı-arayüzü)
 8. [Performans Optimizasyonu](#performans-optimizasyonu)
-9. [Derleme ve APK Oluşturma](#derleme-ve-apk-oluşturma)
-10. [Bilinen Sorunlar ve Çözümleri](#bilinen-sorunlar-ve-çözümleri)
+9. [Bilinen Sorunlar ve Çözümleri](#bilinen-sorunlar-ve-çözümleri)
 
 ## Proje Genel Bakış
 
@@ -45,12 +44,7 @@ Assets/
 ├── Scripts/              # C# script dosyaları
 ├── Models/               # 3D modeller (balıklar, olta, vb.)
 ├── Materials/            # Materyal dosyaları
-├── Textures/             # Doku dosyaları
-├── Animations/           # Animasyon dosyaları
-├── Fonts/                # Font dosyaları
-├── Sounds/               # Ses dosyaları
-├── Plugins/              # Eklentiler
-└── XR/                   # XR/AR ile ilgili dosyalar
+
 ```
 
 ### Anahtar Dosyalar ve Açıklamaları
@@ -153,21 +147,6 @@ Mobil cihazlarda iyi performans elde etmek için aşağıdaki optimizasyonlar uy
 - LOD (Level of Detail) sistemi
 - Object pooling
 
-## Derleme ve APK Oluşturma
-
-Projeyi derlemek ve APK oluşturmak için aşağıdaki adımları izleyin:
-
-1. Unity Editor'de, **File > Build Settings**'i açın
-2. Platform olarak Android'i seçin ve **Switch Platform** butonuna tıklayın
-3. **Player Settings**'i açın ve şunları ayarlayın:
-   - **Company Name**: Ekibinizin Adı
-   - **Product Name**: AR Balık Tutma
-   - **Version**: 1.0
-   - **Bundle Identifier**: com.ekibinizinadi.arbaliktutma
-   - **Minimum API Level**: Android 7.0 'Nougat' (API level 24)
-   - **Target API Level**: Android 13 (API level 33)
-4. **XR Plugin Management** ayarlarında ARCore'un etkinleştirildiğinden emin olun
-5. **Build** butonuna tıklayın ve APK dosyasını kaydedin
 
 ## Bilinen Sorunlar ve Çözümleri
 

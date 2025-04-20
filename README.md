@@ -4,7 +4,7 @@ Bu proje, çocuklara yönelik eğlenceli bir Artırılmış Gerçeklik (AR) bal�
 
 ![Menü butonları ve başlık](Assets/Images/01.png)
 
-![Arkaplan](Assets/Images/Background .png)
+![Arkaplan](Assets/Images/Background.png)
 
 
 

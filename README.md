@@ -71,8 +71,8 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 
 ### iletiim
 
--tyfn1963@gmail.com
--selim_dync@hotmail.com
+tyfn1963@gmail.com
+selim_dync@hotmail.com
 
 ## Lisans
 

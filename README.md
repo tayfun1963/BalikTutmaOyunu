@@ -72,8 +72,7 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 ## İletişim ve Destek
 
 Sorularınız veya geri bildirimleriniz için:
-- E-posta: balik.tutma@ornek.com
-- GitHub: https://github.com/kullanici/ar-balik-tutma
+
 
 ## Lisans
 

@@ -19,7 +19,6 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 - AR destekleyen bir mobil cihaz (ARCore uyumlu)
 - En az 2GB RAM
 - Kamera ve jiroskop sensörü
-- 
 ## Kullanım Kılavuzu
 
 1. Uygulamayı başlatın

@@ -83,3 +83,31 @@ Sorularınız veya geri bildirimleriniz için:
 ## Lisans
 
 Bu proje eğitim amaçlı geliştirilmiştir ve ticari kullanım için değildir. 
+
+ScaneScenes/                      # Ana proje klasörü
+├── Assets/                       # Unity varlıklarının bulunduğu ana klasör
+│   ├── Scenes/                   # Oyun sahnelerinin bulunduğu klasör
+│   │   ├── FirstScene.unity      # Başlangıç sahnesi, oyuna giriş ekranı
+│   │   ├── DetectScene.unity     # AR kamera ile düzlem algılama ve su oluşturma sahnesi
+│   │   └── *.meta                # Unity meta dosyaları
+│   ├── Scripts/                  # Oyunun C# script dosyalarının bulunduğu klasör
+│   │   ├── ARFilterPlanes.cs     # AR düzlemleri algılama ve filtreleme işlemlerini yöneten script
+│   │   ├── ARFeatheredPlaneMeshVisualizer.cs # AR düzlemlerin yumuşak kenarlarla görselleştirilmesini sağlayan script
+│   │   ├── CreateWaterMesh.cs    # Su düzlemi oluşturan ve suyu görselleştiren script
+│   │   ├── SystemInfo.cs         # Sistem mesajlarını ekranda gösteren script
+│   │   ├── AudioManager.cs       # Ses yönetimi yapan script
+│   │   ├── ScriptsKDH/           # Kullanıcı arayüzü script dosyaları klasörü
+│   │   │   └── BtnClickListeners.cs # Buton tıklama olaylarını yöneten script
+│   │   └── *.meta                # Unity meta dosyaları
+│   ├── Resources/                # Dinamik olarak yüklenen kaynaklar klasörü (oluşturulabilir)
+│   │   └── Images/               # Görsel dosyalarının bulunduğu klasör (oluşturulabilir)
+│   ├── Scenes.meta              # Unity meta dosyası
+│   └── Scripts.meta             # Unity meta dosyası
+├── ProjectSettings/              # Unity proje ayarları klasörü
+│   └── EditorBuildSettings.asset # Sahnelerin yapılandırma dosyası, FirstScene ve DetectScene sahnelerini içerir
+├── Packages/                     # Unity paketleri klasörü
+│   ├── manifest.json            # Projenin kullandığı Unity paketlerinin listesi
+│   └── packages-lock.json       # Paket sürümlerinin kilitleme dosyası
+├── Build/                        # Derleme ve dağıtım dosyaları klasörü
+│   └── projeBilgileri.deu       # Projenin APK oluşturma bilgilerini içeren dosya
+└── README.md                     # Projenin açıklama dosyası

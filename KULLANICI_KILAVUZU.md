@@ -3,11 +3,10 @@
 ## İçindekiler
 1. [Giriş](#giriş)
 2. [Sistem Gereksinimleri](#sistem-gereksinimleri)
-3. [Kurulum](#kurulum)
-4. [Başlangıç](#başlangıç)
-5. [Oynanış](#oynanış)
-6. [Sorun Giderme](#sorun-giderme)
-7. [Sık Sorulan Sorular](#sık-sorulan-sorular)
+3. [Başlangıç](#başlangıç)
+4. [Oynanış](#oynanış)
+5. [Sorun Giderme](#sorun-giderme)
+6. [Sık Sorulan Sorular](#sık-sorulan-sorular)
 
 ## Giriş
 
@@ -22,16 +21,6 @@ Uygulamayı düzgün bir şekilde çalıştırabilmek için cihazınızın aşa�
 - **RAM**: En az 2GB
 - **Depolama**: En az 100MB boş alan
 - **Sensörler**: Kamera, jiroskop ve ivmeölçer
-
-## Kurulum
-
-1. APK dosyasını Android cihazınıza indirin
-2. Bilinmeyen kaynaklardan yüklemeye izin verin:
-   - **Ayarlar > Güvenlik > Bilinmeyen Kaynaklar** seçeneğini etkinleştirin
-3. İndirilen APK dosyasını çalıştırın ve yüklemeyi tamamlayın
-4. Uygulamayı açın ve gerekli izinleri verin:
-   - Kamera izni
-   - Konum izni (isteğe bağlı)
 
 ## Başlangıç
 

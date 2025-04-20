@@ -69,6 +69,10 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 - **Yüzey algılanmıyor**: Daha iyi aydınlatılmış ve düz bir yüzeyde tekrar deneyin
 - **Performans düşük**: Arkaplanda çalışan uygulamaları kapatın ve cihazı yeniden başlatın
 
+### iletiim
+
+-tyfn1963@gmail.com
+-selim_dync@hotmail.com
 
 ## Lisans
 

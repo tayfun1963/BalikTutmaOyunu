@@ -15,7 +15,7 @@
 - Kullanıcı şifresini unutmuşsa, şifre sıfırlama sürecini başlatır
 - Kullanıcı sosyal medya hesapları ile giriş yapabilir
 
-## 2. AR Ortamını Tanımlama
+## 2. AR Ortamını Tanımlama*
 
 **Ana Senaryo:**
 

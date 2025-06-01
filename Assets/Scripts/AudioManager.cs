@@ -18,7 +18,11 @@ public class AudioManager : MonoBehaviour
     AudioSource audioSource;
     
     
+<<<<<<< HEAD
     
+=======
+    // Start is called before the first frame update
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
     void Awake()
     {
         audioSource = gameObject.GetComponent<AudioSource>();

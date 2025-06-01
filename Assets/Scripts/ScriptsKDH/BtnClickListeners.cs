@@ -30,6 +30,10 @@ public class BtnClickListeners : MonoBehaviour
         mClicked = false;
         if(SceneManager.GetActiveScene().name == "FirstScene")
         {
+<<<<<<< HEAD
+=======
+            //GameBtn.onClick.AddListener( delegate { GameBtnClicked(); });
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
             NFTBtn.onClick.AddListener( delegate { NFTBtnClicked(); });
         }
         else if(SceneManager.GetActiveScene().name == "DetectScene")

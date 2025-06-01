@@ -144,9 +144,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+<<<<<<< HEAD
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
+=======
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -175,31 +181,54 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+<<<<<<< HEAD
         "com.unity.xr.management": "4.0.1",
         "com.unity.xr.arsubsystems": "4.2.2",
+=======
+        "com.unity.xr.arsubsystems": "4.2.2",
+        "com.unity.xr.management": "4.0.1",
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
+<<<<<<< HEAD
       "version": "4.2.10",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
         "com.unity.xr.arsubsystems": "4.2.10",
+=======
+      "version": "4.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arsubsystems": "4.2.2",
+        "com.unity.xr.management": "4.0.1",
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
+<<<<<<< HEAD
       "version": "4.2.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
         "com.unity.subsystemregistration": "1.1.0"
+=======
+      "version": "4.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.xr.management": "4.0.1"
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
       },
       "url": "https://packages.unity.com"
     },
@@ -218,11 +247,19 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
+<<<<<<< HEAD
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.subsystemregistration": "1.0.6",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
+=======
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.subsystemregistration": "1.0.6"
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
       },
       "url": "https://packages.unity.com"
     },

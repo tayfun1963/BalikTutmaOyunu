@@ -7,7 +7,11 @@ public class ARFilterPlanes : MonoBehaviour
 {
     public static ARFilterPlanes instance;
 
+<<<<<<< HEAD
     
+=======
+    // [SerializedField] private Vector2 dimensionsForBigPlane;
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
     [SerializeField] ARSession arSession =null;
     private ARPlaneManager arPlaneManager;
     private List<ARPlane> arPlanes;
@@ -25,7 +29,11 @@ public class ARFilterPlanes : MonoBehaviour
     public void Start(){
         instance = this;
         childObjs = gameObject.GetComponentsInChildren<RectTransform>();
+<<<<<<< HEAD
        
+=======
+        // HideAllUIs();
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
     }
 
   private void OnEnable()
@@ -40,7 +48,11 @@ public class ARFilterPlanes : MonoBehaviour
   }
   void OnDisable()
   {
+<<<<<<< HEAD
        arPlaneManager.planesChanged -= OnPlanesChanged; 
+=======
+       arPlaneManager.planesChanged -= OnPlanesChanged; // 더 이상 이벤트를 받지 않음 
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
   }
 
   private void OnPlanesChanged(ARPlanesChangedEventArgs args){
@@ -67,8 +79,13 @@ public class ARFilterPlanes : MonoBehaviour
     public void CreateWater(){
         if (arPlane == null)
         {
+<<<<<<< HEAD
             
             SystemInfo.instance.SetSystemInfo("Önce zemin oluşturunuz");
+=======
+            // 인식된 평면이 없을 경우
+            SystemInfo.instance.SetSystemInfo("Recognize the plane first!");
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
             return;
         }
 
@@ -88,7 +105,11 @@ public class ARFilterPlanes : MonoBehaviour
     }
 
     private void ShowUIs(){
+<<<<<<< HEAD
         
+=======
+        // RectTransform[] childObjs = gameObject.GetComponentsInChildren<RectTransform>();
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         int size = childUis.Length;
         for( int i=0; i<size;i++){
             childUis[i].SetActive(true);
@@ -98,7 +119,11 @@ public class ARFilterPlanes : MonoBehaviour
     }
 
      private void HideAllUIs(){
+<<<<<<< HEAD
         
+=======
+        // RectTransform[] childObjs = gameObject.GetComponentsInChildren<RectTransform>();
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         int size = childUis.Length;
         for( int i=0; i<size;i++){
             childUis[i].SetActive(false);

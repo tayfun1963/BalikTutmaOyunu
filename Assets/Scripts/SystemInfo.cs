@@ -13,10 +13,17 @@ public class SystemInfo : MonoBehaviour
     private float readyTime;
     private float fadeSpeed;
 
+<<<<<<< HEAD
     
     private Color color;
 
     
+=======
+    /* Temp Variables */
+    private Color color;
+
+    // Start is called before the first frame update
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
     void Start()
     {
         instance = this;

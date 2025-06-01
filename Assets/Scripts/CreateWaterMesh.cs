@@ -12,25 +12,42 @@ public class CreateWaterMesh : MonoBehaviour
 
     GameObject plane;
 
+<<<<<<< HEAD
     public int widthSegments = 1;      
     public int heightSegments = 1;     
+=======
+    public int widthSegments = 1;       //Number of pieces for dividing plane vertically
+    public int heightSegments = 1;      //Number of pieces for dividing plane horizontally
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
     public static string assetSaveLocation = "Assets/Plane Meshes/";
     public Material material;    
     
 
     public void CreatePlane(float planeWidth,float planeHeight, Vector3 center ){
 
+<<<<<<< HEAD
         
         plane = new GameObject();   
         plane.name = "WaterPlane";
         
        
+=======
+        //Create an empty gamobject
+        plane = new GameObject();   
+        plane.name = "WaterPlane";
+        
+        //Create Mesh Filter and Mesh Renderer components
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         MeshFilter meshFilter = plane.AddComponent(typeof(MeshFilter)) as MeshFilter;
         MeshRenderer meshRenderer = plane.AddComponent((typeof(MeshRenderer))) as MeshRenderer;
         plane.AddComponent(typeof(BoxCollider));
         meshRenderer.sharedMaterial = material;
     
+<<<<<<< HEAD
         
+=======
+        //Generate a name for the mesh that will be created
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         string planeMeshAssetName = plane.name + widthSegments + "x" + heightSegments
                                     + "W" + planeWidth + "H" + planeHeight + ".asset";
             
@@ -55,7 +72,11 @@ public class CreateWaterMesh : MonoBehaviour
         float scaleX = planeWidth / widthSegments;
         float scaleY = planeHeight / heightSegments;
 
+<<<<<<< HEAD
         
+=======
+        //Generate the vertices
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         for (float y = 0.0f; y < vCount2; y++)
         {
             for (float x = 0.0f; x < hCount2; x++)
@@ -67,7 +88,11 @@ public class CreateWaterMesh : MonoBehaviour
             }
         }
 
+<<<<<<< HEAD
         
+=======
+        //Reset the index and generate triangles
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         index = 0;
         for (int y = 0; y < heightSegments; y++)
         {
@@ -84,19 +109,32 @@ public class CreateWaterMesh : MonoBehaviour
             }
         }
 
+<<<<<<< HEAD
         
+=======
+        //Update the mesh properties (vertices, UVs, triangles, normals etc.)
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         m.vertices = vertices;
         m.uv = uvs;
         m.triangles = triangles;
         m.tangents = tangents;
         m.RecalculateNormals();
  
+<<<<<<< HEAD
         
         meshFilter.sharedMesh = m;
         
         m.RecalculateBounds();
 
         
+=======
+        //Update mesh
+        meshFilter.sharedMesh = m;
+        // meshFilter.material = material;
+        m.RecalculateBounds();
+
+        //Add LowPolyWater as component
+>>>>>>> da68dd2e469b9e8b3aa924e7f09a8b4ef45d6a22
         plane.AddComponent<LowPolyWater.LowPolyWater>();
         plane.transform.position =center;
     }

@@ -2,17 +2,15 @@
 
 Bu proje, çocuklara yönelik eğlenceli bir Artırılmış Gerçeklik (AR) balık tutma oyunudur. Unity ve AR Foundation kullanılarak geliştirilmiştir.
 
-![Ana ekran](anaekran.jpg)
+![Ana ekran](anaekran.png)
 
-![Çanta](canta.jpg)
+![Çanta](canta.png)
 
-![Oynanış Ekranı 1](oynanis1.jpg)
+![Oynanış Ekranı 1](oynanis1.png)
 
-![Oynanış Ekranı 1](oynanis2.jpg)
+![Oynanış Ekranı 1](oynanis2.png)
 
-![Olta Dükkanı](oltadukkani.jpg)
-
-![Yem Dükkanı](yemdukkani.jpg)
+![Olta Dükkanı](oltadukkani.png)
 
 
 

@@ -3,13 +3,13 @@
 Bu proje, çocuklara yönelik eğlenceli bir Artırılmış Gerçeklik (AR) balık tutma oyunudur. Unity ve AR Foundation kullanılarak geliştirilmiştir.
 
 <p align="center">
-  <img src="anaekran.png" alt="Ekran Görüntüsü 1" width="250"/>
-  <img src="canta.png" alt="Ekran Görüntüsü 2" width="250"/>
-  <img src="oynanis1.png" alt="Ekran Görüntüsü 3" width="250"/>
+  <img src="anaekran.png" alt="Ekran Görüntüsü 1" width="250" height="500"/>
+  <img src="canta.png" alt="Ekran Görüntüsü 2" width="250" height="500"/>
+  <img src="oynanis1.png" alt="Ekran Görüntüsü 3" width="250" height="500"/>
 </p>
 <p align="center">
-  <img src="oynanis2.png" alt="Ekran Görüntüsü 1" width="300"/>
-  <img src="canta.png" alt="Ekran Görüntüsü 2" width="300"/>
+  <img src="oynanis2.png" alt="Ekran Görüntüsü 1" width="300" height="500"/>
+  <img src="canta.png" alt="Ekran Görüntüsü 2" width="300" height="500"/>
 </p>
 
 

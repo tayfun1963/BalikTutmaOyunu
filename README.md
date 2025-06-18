@@ -12,6 +12,11 @@ Bu proje, çocuklara yönelik eğlenceli bir Artırılmış Gerçeklik (AR) bal�
 
 ![Olta Dükkanı](oltadukkani.png)
 
+<p align="center">
+  <img src="anaekran.png" alt="Ekran Görüntüsü 1" width="250"/>
+  <img src="canta.png" alt="Ekran Görüntüsü 2" width="250"/>
+  <img src="oynanis1.png" alt="Ekran Görüntüsü 3" width="250"/>
+</p>
 
 
 ## Proje Açıklaması

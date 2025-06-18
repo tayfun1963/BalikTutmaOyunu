@@ -18,6 +18,8 @@ Bu proje, çocuklara yönelik eğlenceli bir Artırılmış Gerçeklik (AR) bal�
 
 AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyimi yaşamalarını sağlayan bir mobil uygulamadır. Uygulama AR teknolojisi kullanarak gerçek dünya yüzeylerini algılar ve bu yüzeylere sanal bir su ortamı yerleştirir. Kullanıcılar bu sanal su ortamında balık tutabilirler.
 
+APK = https://drive.google.com/file/d/11EfH2Ntfh2k-DOjCzNnPQjylq52o1HEu/view?usp=drive_link
+
 ### Özellikler
 
 - AR teknolojisi ile gerçek dünya yüzeylerini algılama

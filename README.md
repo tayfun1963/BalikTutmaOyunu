@@ -31,7 +31,7 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 🎮 Oynanış
 
 Uygulamanın nasıl çalıştığını merak ediyorsan, aşağıdaki bağlantıdan kısa oynanış videosunu izleyebilirsin:  
-<a href="https://www.youtube.com/shorts/FLlgGhMfwlw">👉 Oynanış Videosu</a>
+👉<a href="https://www.youtube.com/shorts/FLlgGhMfwlw">Oynanış Videosu</a>
 
 Uygulamanın temel özelliklerini, kullanıcı deneyimini ve nasıl kullanıldığını videoda görebilirsin.
 

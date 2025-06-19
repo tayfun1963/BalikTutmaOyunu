@@ -28,6 +28,13 @@ AR Balık Tutma Oyunu, çocukların eğlenceli bir şekilde balık tutma deneyim
 3. İndirilen `.apk` dosyasını açarak kurulumu tamamla.
 
 
+🎮 Oynanış
+Uygulamanın nasıl çalıştığını merak ediyorsan, aşağıdaki bağlantıdan kısa oynanış videosunu izleyebilirsin:
+👉 [Oynanış Videosunu İzle](https://www.youtube.com/shorts/FLlgGhMfwlw)
+
+Uygulamanın temel özelliklerini, kullanıcı deneyimini ve nasıl kullanıldığını videoda görebilirsin.
+
+
 ### Özellikler
 
 - AR teknolojisi ile gerçek dünya yüzeylerini algılama
